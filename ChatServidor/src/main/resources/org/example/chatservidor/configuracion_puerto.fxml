@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="200" prefWidth="300" spacing="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.12" fx:controller="org.example.chatservidor.controller.ConfiguracionPuertoController">
+    <Label text="Ingrese el puerto para el servidor:">
+      <font>
+         <Font name="Consolas" size="15.0" />
+      </font></Label>
+    <TextField fx:id="portTextField" promptText="Puerto (Default: 12345)">
+      <font>
+         <Font size="15.0" />
+      </font></TextField>
+    <Button onAction="#startServer" text="Iniciar Servidor">
+      <font>
+         <Font name="Consolas" size="14.0" />
+      </font></Button>
+</VBox>
